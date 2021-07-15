@@ -1,5 +1,9 @@
 # 152-084-Front-End-Dev-With-Angular
+Welcome to Front-End Development with Angular!
 
+[Gateway Technical College](http://gtc.edu)
+
+## Course Description
 This course introduces students to the Angular framework. Students will use Typescript for developing
 Angular applications. Students learn the architecture of Angular applications including components,
 directives and services. Students will create single-page applications that utilize data binding, the
