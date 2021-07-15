@@ -1,7 +1,6 @@
 # 152-084-Front-End-Dev-With-Angular
 Welcome to Front-End Development with Angular!
-
-[Gateway Technical College](http://gtc.edu)
+This course is part of the [Full-Stack Web Developer Certificate](https://www.gtc.edu/programs/certificates/it-full-stack-web-developer) being offered at [Gateway Technical College](http://gtc.edu).
 
 ## Course Description
 This course introduces students to the Angular framework. Students will use Typescript for developing
