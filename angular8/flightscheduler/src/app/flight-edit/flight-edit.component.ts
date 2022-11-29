@@ -21,9 +21,7 @@ export class FlightEditComponent implements OnInit {
 
   ngOnInit() {
     this.activatedRoute.paramMap.subscribe(
-      params => {
-        this.flight_id = Number(params.get("id"));
-      }
+      params => this.flight_id = Number(params.get("id"));
     );
     this.loadFlightData();
   }
@@ -31,9 +29,7 @@ export class FlightEditComponent implements OnInit {
   loadFlightData(){
     this.flightService.getFlight(this.flight_id)
         .subscribe(
-          data => {
-            this.flight = data;
-          }
+          data => this.flight = data;
         );
   }
   updateFlight(){
@@ -43,7 +39,7 @@ export class FlightEditComponent implements OnInit {
             this.flight = data as Observable<Flight>;
             this.success = true;
           },
-          error => console.log("Oops.  Cannot update! " + error)
+          error => console.log("Oops.  Cannot update! " + error);
         );
   }
 
